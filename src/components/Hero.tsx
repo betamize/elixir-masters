@@ -51,6 +51,7 @@ export const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
+              unoptimized
               src={elixirImg}
               height="350"
               className={"object-cover"}

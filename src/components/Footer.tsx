@@ -25,6 +25,7 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 {/* <Image
+                  unoptimized
                   src="/img/logo.svg"
                   alt="N"
                   width="32"
@@ -49,6 +50,7 @@ export function Footer() {
                 className="relative block w-44"
               >
                 <Image
+                  unoptimized
                   src="/img/vercel.svg"
                   alt="Powered by Vercel"
                   width="212"

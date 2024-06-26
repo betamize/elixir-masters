@@ -68,6 +68,7 @@ function Avatar(props: Readonly<AvatarProps>) {
     <div className="flex items-center mt-8 space-x-3">
       <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
         <Image
+          unoptimized
           src={props.image}
           width="40"
           height="40"

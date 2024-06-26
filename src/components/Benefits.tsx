@@ -29,6 +29,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
         >
           <div>
             <Image
+              unoptimized
               src={data.image}
               width={521}
               height={521}
