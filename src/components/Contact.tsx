@@ -16,6 +16,9 @@ export const Contact = () => {
 
   const onSubmit = async (data: any, e: any) => {
     e.preventDefault();
+    console.log("process.env.SERVICE_ID", process.env.SERVICE_ID);
+    console.log("process.env.TEMPLATE_ID", process.env.TEMPLATE_ID);
+    console.log("process.env.PUBLIC_KEY", process.env.PUBLIC_KEY);
 
     await emailjs
       .send(
@@ -32,6 +35,8 @@ export const Contact = () => {
           reset();
         },
         (error) => {
+          console.log("ERROR", error);
+
           setIsSuccess(false);
         }
       );
