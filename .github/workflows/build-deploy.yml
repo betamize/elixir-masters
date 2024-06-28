@@ -28,6 +28,10 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      SERVICE_ID: ${{ secrets.SERVICE_ID }}
+      TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+      PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
