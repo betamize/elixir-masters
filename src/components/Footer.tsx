@@ -10,6 +10,7 @@ export function Footer() {
     { name: "About", url: "#about" },
     { name: "Why Elixir", url: "#whyelixir" },
     { name: "Services", url: "#services" },
+    { name: "Blogs", url: "https://blog.elixirmasters.com", target: "_blank" },
     { name: "Contact", url: "#contact" },
   ];
   const legal = ["Terms", "Privacy", "Legal"];
@@ -62,10 +63,11 @@ export function Footer() {
 
           <div className="lg:col-span-2">
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map(({ name, url }, index) => (
+              {navigation.map(({ name, url, target }, index) => (
                 <Link
                   key={index}
                   href={url}
+                  target={target}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {name}
