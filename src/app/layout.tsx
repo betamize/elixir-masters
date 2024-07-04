@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "ElixirMasters offers bespoke software development services using Elixir, Phoenix, LiveView, and Erlang. We provide tailored solutions, consulting, training, and developer hiring on an hourly or monthly basis. Based in India, we cater to clients globally.",
   keywords:
-    "India's No.1 Elixir Development Company, Elixir Development, Phoenix Framework, LiveView Development, Erlang Integration, Software Consulting, Developer Training, Hire Elixir Developers, Software Maintenance, IT Support",
+    "India's No.1 Elixir Development Company, Elixir Development, Phoenix Framework, LiveView Development, Erlang Integration, Software Consulting, Developer Training, Hire Elixir Developers, Software Maintenance, IT Support, software development, Custom Software Development, Elixir Consulting Services, Hire the best Elixir Developers in India, Elixir Development Company in India",
   authors: { name: "BetaMize", url: "https://betamize.com" },
   robots: "index, follow",
   alternates: { canonical: "https://elixirmasters.com" },
